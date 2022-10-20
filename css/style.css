@@ -107,6 +107,10 @@ header {
     line-height: 1.14;
     text-decoration: none;
     letter-spacing: 0.02em;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .link:hover ,
@@ -149,6 +153,10 @@ header {
     line-height: 1.14;
     text-decoration: none;
     letter-spacing: 0.02em;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact .link-contacts:hover,
 .contact .link-contacts:focus {
@@ -200,6 +208,10 @@ header {
     line-height: 1.875;
     letter-spacing: 0.06em;
     cursor: pointer;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover,      
@@ -359,6 +371,10 @@ header {
     justify-content: center;
     border-radius: 50%;
     color: #AFB1B8;
+
+    transition-property: background-color, color;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon {
@@ -402,6 +418,10 @@ header {
     border-radius: 4px;
     color: #AFB1B8;
     border: 1px solid #AFB1B8;
+
+    transition-property: border, color;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-icon {
@@ -446,6 +466,10 @@ padding: 60px 0px;
     text-decoration: none;
     letter-spacing: 0.03em;
     margin-bottom: 9px;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-items .link-name:not(:last-child) {
@@ -467,6 +491,10 @@ padding: 60px 0px;
     text-decoration: none;
     letter-spacing: 0.03em;
     margin-bottom: 9px;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-items .link-item:hover,
@@ -477,7 +505,7 @@ padding: 60px 0px;
 .footer-container {
     display: flex;
     align-items: baseline;
-    } 
+} 
 
 .container-adress {
     margin-right: 70px;
@@ -518,6 +546,10 @@ padding: 60px 0px;
     height: 100%;
     border-radius: 50%;
     color: var(--primary-white-color);
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
@@ -559,6 +591,10 @@ padding: 60px 0px;
     padding: 6px 22px;
     border-radius: 4px;
     border: 0;
+
+    transition-property: background-color, color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter .filter-button:hover,
@@ -574,12 +610,17 @@ padding: 60px 0px;
     letter-spacing: 0.06em;
     margin-bottom: 4px;
     color: var(--primary-text-color);
-}
+    }
 
 .products-link .products-box:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
+.products-box {
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .products-link {
     text-decoration: none;
@@ -618,5 +659,4 @@ padding: 60px 0px;
     border: 1px solid #EEE;
     border-top: 0;
 }
-
 
