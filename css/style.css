@@ -313,7 +313,7 @@ header {
     position: relative;
     display: flex;
     justify-content: center;
-    }
+}
 
 .activity::before {
     content: '';
@@ -332,7 +332,8 @@ header {
 
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.143px;
+    line-height: 16px;
+    text-align: center;
     
     text-transform: uppercase;
 
