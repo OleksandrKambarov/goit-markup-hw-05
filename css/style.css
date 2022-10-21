@@ -313,7 +313,7 @@ header {
     position: relative;
     display: flex;
     justify-content: center;
-}
+    }
 
 .activity::before {
     content: '';
@@ -321,11 +321,22 @@ header {
     bottom: 0;
     width: 100%;
     height: 70px;
-    bgcolor: …
+    background: rgba(47, 48, 58, 0.8);
 }
 
 .activity-title {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding: 27px 0;
 
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143px;
+    
+    text-transform: uppercase;
+
+    color: var(--primary-white-color);
 }
 
 /* team */
@@ -333,7 +344,6 @@ header {
     background-color: var(--secondary-fon-color);
     letter-spacing: 0.03em;
     text-align: center;
-    
 }
 
 .team {
