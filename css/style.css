@@ -695,6 +695,7 @@ padding: 60px 0px;
 .products-box {
     position: relative;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
 }
 
 .products-link {
@@ -755,7 +756,3 @@ padding: 60px 0px;
 .products-box:hover .products-description {
     transform: translateY(0);
 }
-.images-products {
-    overflow: hidden;
-}
-
